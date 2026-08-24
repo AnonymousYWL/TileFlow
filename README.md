@@ -12,3 +12,4 @@ GCC >= 13.0, OpenMP, numactl, MKL 20250300
 # hardware platform
 AMX- or SME-enabled CPUs
 
+![CPU Architecture](https://raw.githubusercontent.com/AnonymousYWL/TILEFLOW/main/CPU.png)
