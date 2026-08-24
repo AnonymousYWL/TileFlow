@@ -5,3 +5,6 @@ TILEFLOW is a high-performance GEMM library for irregular GEMM workloads on CPUs
 
 # Reference
 Weiling Yang, Jianbin Fang, Dezun Dong, Chencheng Deng, Runxi He, Junwen Zhang. TILEFLOW: Data-Movement-Centric Optimization for Irregular GEMM on Matrix-Unit CPUs (SC 2026).
+
+# Software dependences
+GCC >= 13.0, OpenMP, numactl, MKL 20250300
