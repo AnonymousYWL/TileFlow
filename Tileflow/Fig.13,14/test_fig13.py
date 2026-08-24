@@ -7,12 +7,12 @@ def load_txt(file_path):
 
 # 数据
 # baseline: IPEX+oneDNN
-ipex_onednn = load_txt("no_prepack.txt")
+ipex_onednn = load_txt("NT.txt")
 
 # 其他两组
 ipex = load_txt("prepack.txt")
-ipex_megemm = load_txt("custom_mlp.txt")
-ipex_megemm_no_prepack = load_txt("custom_mlp.txt")
+ipex_megemm = load_txt("prepack_ours.txt")
+ipex_megemm_no_prepack = load_txt("NT_ours.txt")
 
 # speedup，相对于 IPEX+oneDNN
 speedup_onednn = np.ones_like(ipex_onednn)
