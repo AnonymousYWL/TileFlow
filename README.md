@@ -8,3 +8,7 @@ Weiling Yang, Jianbin Fang, Dezun Dong, Chencheng Deng, Runxi He, Junwen Zhang. 
 
 # Software dependences
 GCC >= 13.0, OpenMP, numactl, MKL 20250300
+
+# hardware platform
+AMX- or SME-enabled CPUs
+
